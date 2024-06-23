@@ -5,6 +5,9 @@ import ciberc.edu.pe.examen_isaias_capistrano.models.Autor;
 import java.util.List;
 
 
+
+
+
 public interface AutorService {
     Autor createAutor(Autor autor);
     Autor updateAutor(Integer id, Autor autor);
