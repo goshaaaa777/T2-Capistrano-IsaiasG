@@ -16,6 +16,7 @@ public class Autor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idAutor;
 
+
     @Column(nullable = false, length = 50)
     private String nomAutor;
 
