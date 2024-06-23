@@ -31,6 +31,7 @@ public class PublicacionController {
         return ResponseEntity.ok(createdPublicacion);
     }
 
+
     @PutMapping("/{id}")
     public ResponseEntity<Publicacion> updatePublicacion(@PathVariable Integer id, @RequestBody Publicacion publicacion) {
         Publicacion updatedPublicacion = publicacionService.updatePublicacion(id, publicacion);

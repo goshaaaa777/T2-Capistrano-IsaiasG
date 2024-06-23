@@ -44,6 +44,7 @@ public class AutorController {
         return ResponseEntity.ok().build();
     }
 
+
     @GetMapping("/{id}")
     public ResponseEntity<Autor> getAutorById(@PathVariable Integer id) {
         Autor autor = autorService.getAutorById(id);
